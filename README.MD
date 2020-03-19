@@ -1,1 +1,14 @@
-#### Git repository for article https://medium.com/@adigunhammedolalekan/build-and-deploy-a-secure-rest-api-with-go-postgresql-jwt-and-gorm-6fadf3da505b
+Golang Rest API JWT Kick Starter
+
+=================================
+
+End point : POST /api/user/new
+{"email" : "xxx@example.com", "password" : "secret"}
+
+GET /api/user/login
+{"email" : "xxx@example.com", "password" : "secret"}
+
+POST /api/contacts/new
+{"name" : "your name", "phone" : "your phone"}
+
+Header Authorization : Bearer "login token"
