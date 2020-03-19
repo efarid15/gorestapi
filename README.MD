@@ -12,3 +12,7 @@ POST /api/contacts/new
 {"name" : "your name", "phone" : "your phone"}
 
 Header Authorization : Bearer "login token"
+
+GET /api/me/contacts
+
+Header Authorization : Bearer "login token"
